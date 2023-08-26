@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    background-color: rgb(255, 173, 50);
+    scroll-behavior: smooth;
+}
+
+textarea {
+    border-color: transparent;
+    resize: none;
+    font-size: 20px;
+}
+
+textarea:focus {
+    border: 0;
+    outline: 0;
+}
+
+.main-section {
+    background-color: rgb(255, 173, 50);
+}
+
+.zxcv {
+    border-radius: 30px;
+    width: 350px;
+    height: 420px;
+}
+
+.image {
+    width: 50px;
+}
+
+.new_add {
+    position: fixed;
+    z-index: 11;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, .8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delete_btn img {
+    width: 25px;
+}
+
+.delete_btn {
+    background-color: white;
+    border-color: transparent;
+    /* position: fixed; */
+    margin-left: 10px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.addSomeNotes_img {
+    width: 440px;
+    /* margin: 60px auto; */
+}
+footer{
+    display: flex;
+    bottom: 0;
+}
