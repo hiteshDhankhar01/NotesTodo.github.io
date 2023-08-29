@@ -84,10 +84,6 @@ addBtn.addEventListener(
 
 function saveNotes() {
     const showData = JSON.parse(localStorage.getItem("saveNotes"));
-    if (showData == null && showData.length == 0) {
-        Remove_addSomeNotes()
-    }
-
 
     const notes = document.querySelector("#notes_text12")
     const saveData = notes.value
@@ -103,6 +99,9 @@ function saveNotes() {
     localStorage.setItem('saveNotes', JSON.stringify(data))
     remove_btn()
     // fetchData()
+     if (showData == null && showData.length == 0) {
+        Remove_addSomeNotes()
+    }
 
 }
 
